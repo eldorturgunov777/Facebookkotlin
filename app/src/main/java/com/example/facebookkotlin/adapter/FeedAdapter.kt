@@ -97,10 +97,7 @@ class FeedAdapter(var context: Context, var items: ArrayList<Feed>) :
         recyclerView.adapter = adapter
     }
 
-    class FeedAvatarViewHolder(view: View) :
-        RecyclerView.ViewHolder(view) {
-
-    }
+    class FeedAvatarViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
     class HeadViewHolder(context: Context, view: View) : RecyclerView.ViewHolder(view)
 

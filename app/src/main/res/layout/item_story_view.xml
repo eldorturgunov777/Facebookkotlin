@@ -44,7 +44,7 @@
                     android:id="@+id/tv_fullname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Begzod Kurbanov"
+                    android:text="Eldor"
                     android:textColor="#ffffff"
                     android:textSize="14sp" />
             </LinearLayout>
