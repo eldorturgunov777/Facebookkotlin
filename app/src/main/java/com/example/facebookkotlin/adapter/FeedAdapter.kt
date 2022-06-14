@@ -42,7 +42,6 @@ class FeedAdapter(var context: Context, var items: ArrayList<Feed>) :
     override fun getItemCount(): Int {
         return items.size
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         if (viewType == TYPE_ITEM_HEAD) {
             val view =
